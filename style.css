@@ -1,1 +1,52 @@
-body { background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); font-family: sans-serif; color: white; text-align: center; padding: 50px; } button { margin: 10px; padding: 10px 20px; font-size: 16px; border: none; border-radius: 5px; background: white; color: black; cursor: pointer; } button:hover { background: #eee; }
+
+/* 个��: 仄�亞从亳亶 亞仂�亳亰仂仆�舒仍�仆�亶 亞�舒亟亳亠仆� */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff8aa5, #ffcd8b, #fff78c, #a1f3a1, #92d0ff, #bfa2ff);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+}
+
+/* 丐��亂 ��亊 丐��弌丐� */
+h1, label, p {
+  text-shadow: 1px 1px 3px black;
+  font-size: 24px;
+  margin: 20px 10px;
+}
+
+/* ��丕��乘� ������ */
+button {
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* ��丶�� �丐��丐�� */
+input[type="radio"] {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+
+/* ������ 弌�����乘 � 丕��丕 */
+body::after {
+  content: "��鏝� ��鏝� �э�";
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 24px;
+  opacity: 0.5;
+}
